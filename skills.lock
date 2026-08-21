@@ -87,3 +87,11 @@ source_path = "skills/engineering"
 source_skill = "implement"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "0581e0b3f9ffb24ab26026071e51898b0032a9b0693bfb5c258176db87a98164"
+
+[[skills]]
+managed_skill = "improve-codebase-architecture"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "improve-codebase-architecture"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "fd61139e6d4d8df2bd12b391912359802c84c6668f018f3aa00053706b7c649a"
