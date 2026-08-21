@@ -207,3 +207,11 @@ source_path = "skills/engineering"
 source_skill = "wizard"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "c9264cb6b15d09c357a70145d0669aee330dc3bbee1fd8d9b6a49bab52ca2ae1"
+
+[[skills]]
+managed_skill = "writing-for-agents"
+source_repository = "mattpocock/skills"
+source_path = "skills/productivity"
+source_skill = "writing-for-agents"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "0d6b37617328e719166ae3918e987d83a40b876bcb2cf653f57f0fabff697415"
