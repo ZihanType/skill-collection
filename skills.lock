@@ -15,3 +15,11 @@ source_path = "skills"
 source_skill = "chrome-extensions"
 commit = "460e5536b8e61034d83ff4af24bb0bf1112d2cb0"
 sha256 = "2012f6e779fbd0ce14c824a314708f5f8a862327dc7bd2c510686625c7b57aa0"
+
+[[skills]]
+managed_skill = "code-review"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "code-review"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "066d2a571614a1b24020146497014b7be9c2e2063032c74559cad14ef1c5c050"
