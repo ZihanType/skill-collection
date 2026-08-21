@@ -23,3 +23,11 @@ source_path = "skills/engineering"
 source_skill = "code-review"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "066d2a571614a1b24020146497014b7be9c2e2063032c74559cad14ef1c5c050"
+
+[[skills]]
+managed_skill = "codebase-design"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "codebase-design"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "b9b9d421fafa56b3fd08c14c0e4428fe0da439021207434a1409fd0cdea60397"
