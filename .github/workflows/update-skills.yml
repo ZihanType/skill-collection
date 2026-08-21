@@ -1,0 +1,81 @@
+name: Update skills
+
+on:
+  schedule:
+    - cron: "17 */4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    steps:
+      - name: Check out the collection
+        uses: actions/checkout@v7
+
+      - name: Use the latest Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.x"
+
+      - name: Run offline integration tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Configure the GitHub Actions author
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Plan, apply, commit, and push each skill
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          plan_directory="${RUNNER_TEMP}/skill-update-plan"
+          python update_skills.py plan --output "${plan_directory}"
+
+          {
+            echo "## Skill update"
+            echo
+            echo "| Operation | Managed Skill | Source Repository | Source Skill | Commit |"
+            echo "| --- | --- | --- | --- | --- |"
+          } >> "${GITHUB_STEP_SUMMARY}"
+
+          if [[ ! -s "${plan_directory}/operations.tsv" ]]; then
+            echo "| no-op | — | — | — | — |" >> "${GITHUB_STEP_SUMMARY}"
+            exit 0
+          fi
+
+          while IFS=$'\t' read -r operation managed_skill source_repository source_skill; do
+            python update_skills.py apply-one \
+              --plan "${plan_directory}" \
+              --skill "${managed_skill}"
+
+            git add -A -- skills.lock "skills/${managed_skill}"
+            if git diff --cached --quiet; then
+              echo "Expected ${managed_skill} to produce a Git change" >&2
+              exit 1
+            fi
+
+            commit_message="chore(skills): ${operation} ${managed_skill} from ${source_repository} (source: ${source_skill})"
+            git commit -m "${commit_message}"
+            git push origin HEAD:main
+
+            commit_sha="$(git rev-parse --short HEAD)"
+            safe_source_skill="${source_skill//|/\\|}"
+            printf '| %s | %s | %s | %s | %s |\n' \
+              "${operation}" \
+              "${managed_skill}" \
+              "${source_repository}" \
+              "${safe_source_skill}" \
+              "${commit_sha}" >> "${GITHUB_STEP_SUMMARY}"
+          done < "${plan_directory}/operations.tsv"

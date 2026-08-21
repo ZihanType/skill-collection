@@ -1,0 +1,10 @@
+# Each table identifies one public GitHub Source Repository and one Source Path.
+# Each entry maps a globally unique Managed Skill name to one Source Skill name.
+# A Source Skill may appear in only one mapping across the entire Manifest.
+#
+# ["owner/repository"."path/to/skills"]
+# managed-skill-name = "source-skill-name"
+#
+# Use "." as the Source Path when skills are direct children of the repository root.
+# Comments have no machine meaning. Commenting out a mapping deletes its Managed Skill
+# during the next synchronization.
