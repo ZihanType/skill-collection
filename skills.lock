@@ -103,3 +103,11 @@ source_path = "skills"
 source_skill = "modern-web-guidance"
 commit = "460e5536b8e61034d83ff4af24bb0bf1112d2cb0"
 sha256 = "1d4f06b5314fddce908cff052f8d24481fa197a878b91e25bd29e82d84ad7ceb"
+
+[[skills]]
+managed_skill = "prototype"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "prototype"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "68c1d97920613f01ac78ec9e8aee2b8a69f365880c42fa44d13e27eb01ede54b"
