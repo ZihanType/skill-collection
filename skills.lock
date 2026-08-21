@@ -175,3 +175,11 @@ source_path = "skills/engineering"
 source_skill = "to-tickets"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "cfff3f738d08ded706ff0419cc7391e81367f50ac05d7db726ee28ae4bd7dc12"
+
+[[skills]]
+managed_skill = "triage"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "triage"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "3debe2d62f642c20e84854b59c1579fae2bdb6e00c794626010445d84ed4d22b"
