@@ -111,3 +111,11 @@ source_path = "skills/engineering"
 source_skill = "prototype"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "68c1d97920613f01ac78ec9e8aee2b8a69f365880c42fa44d13e27eb01ede54b"
+
+[[skills]]
+managed_skill = "research"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "research"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "f460314525aab129fa79ecafc5a3aa09ebec4aa3e1115fe580b5ff3d334e97be"
