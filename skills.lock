@@ -1,1 +1,9 @@
 version = 1
+
+[[skills]]
+managed_skill = "ask-matt"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "ask-matt"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "e2a7cad6a6031bfd4ed27c95100f9673d924c91795518e6d15db1ba364d9f94c"
