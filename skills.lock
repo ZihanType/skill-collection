@@ -31,3 +31,11 @@ source_path = "skills/engineering"
 source_skill = "codebase-design"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "b9b9d421fafa56b3fd08c14c0e4428fe0da439021207434a1409fd0cdea60397"
+
+[[skills]]
+managed_skill = "diagnosing-bugs"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "diagnosing-bugs"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "2343062697191e2f0726662f7a10b5eabbf2e8e2a19ff4de9519dd75b84f36d5"
