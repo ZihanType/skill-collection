@@ -191,3 +191,11 @@ source_path = "skills/productivity"
 source_skill = "wait-what"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "a21700f4d0114f02c4264a51730d2081f9740ec6c0b1c2dec6024a91fbc7b2cd"
+
+[[skills]]
+managed_skill = "wayfinder"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "wayfinder"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "c88a20b8eaa898fab62fc566883ebaeb4ba5655cffe2fe0be677617c7b3ac5f1"
