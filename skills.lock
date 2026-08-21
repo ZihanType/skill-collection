@@ -79,3 +79,11 @@ source_path = "skills/productivity"
 source_skill = "handoff"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "3564282c15a287533df4817079814802d22ec634f0315aaf4a71bdf07154d1c0"
+
+[[skills]]
+managed_skill = "implement"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "implement"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "0581e0b3f9ffb24ab26026071e51898b0032a9b0693bfb5c258176db87a98164"
