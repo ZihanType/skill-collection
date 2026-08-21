@@ -135,3 +135,11 @@ source_path = "skills/engineering"
 source_skill = "setup-matt-pocock-skills"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "4fe2901aea041891387fc39375c7e4e48c3a68ab67062340d8f6ffa77ffd3380"
+
+[[skills]]
+managed_skill = "tdd"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "tdd"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "ffb19f4fab44b3f28fd7a9979551e347727cc40814a5c012b87ac99277f9e4bf"
