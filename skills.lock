@@ -127,3 +127,11 @@ source_path = "skills/engineering"
 source_skill = "resolving-merge-conflicts"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "069b198f005aee23c6c42d9b614a37e9a9cf780466afe6c7fdbcd75f9b2d71e9"
+
+[[skills]]
+managed_skill = "setup-matt-pocock-skills"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "setup-matt-pocock-skills"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "4fe2901aea041891387fc39375c7e4e48c3a68ab67062340d8f6ffa77ffd3380"
