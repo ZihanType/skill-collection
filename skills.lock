@@ -7,3 +7,11 @@ source_path = "skills/engineering"
 source_skill = "ask-matt"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "e2a7cad6a6031bfd4ed27c95100f9673d924c91795518e6d15db1ba364d9f94c"
+
+[[skills]]
+managed_skill = "chrome-extensions"
+source_repository = "GoogleChrome/modern-web-guidance"
+source_path = "skills"
+source_skill = "chrome-extensions"
+commit = "460e5536b8e61034d83ff4af24bb0bf1112d2cb0"
+sha256 = "2012f6e779fbd0ce14c824a314708f5f8a862327dc7bd2c510686625c7b57aa0"
