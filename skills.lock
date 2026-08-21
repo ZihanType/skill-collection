@@ -47,3 +47,11 @@ source_path = "skills/engineering"
 source_skill = "domain-modeling"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "0974714aa59dfbba985c58271b11575bd4b6298a68c56806da421ce0a820e054"
+
+[[skills]]
+managed_skill = "grill-me"
+source_repository = "mattpocock/skills"
+source_path = "skills/productivity"
+source_skill = "grill-me"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "c066f870b97bdc4557efd9e9a4bef1297b27b525b581aefb2ffc5c5f98adf9d7"
