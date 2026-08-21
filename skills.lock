@@ -183,3 +183,11 @@ source_path = "skills/engineering"
 source_skill = "triage"
 commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "3debe2d62f642c20e84854b59c1579fae2bdb6e00c794626010445d84ed4d22b"
+
+[[skills]]
+managed_skill = "wait-what"
+source_repository = "mattpocock/skills"
+source_path = "skills/productivity"
+source_skill = "wait-what"
+commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
+sha256 = "a21700f4d0114f02c4264a51730d2081f9740ec6c0b1c2dec6024a91fbc7b2cd"
