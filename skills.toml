@@ -8,3 +8,42 @@
 # Use "." as the Source Path when skills are direct children of the repository root.
 # Comments have no machine meaning. Commenting out a mapping deletes its Managed Skill
 # during the next synchronization.
+
+["mattpocock/skills"."skills/engineering"]
+# User-invoked
+ask-matt = "ask-matt"
+grill-with-docs = "grill-with-docs"
+triage = "triage"
+improve-codebase-architecture = "improve-codebase-architecture"
+setup-matt-pocock-skills = "setup-matt-pocock-skills"
+to-spec = "to-spec"
+to-tickets = "to-tickets"
+implement = "implement"
+wayfinder = "wayfinder"
+
+# Model-invoked
+prototype = "prototype"
+diagnosing-bugs = "diagnosing-bugs"
+research = "research"
+tdd = "tdd"
+domain-modeling = "domain-modeling"
+codebase-design = "codebase-design"
+code-review = "code-review"
+resolving-merge-conflicts = "resolving-merge-conflicts"
+wizard = "wizard"
+
+["mattpocock/skills"."skills/productivity"]
+# User-invoked
+grill-me = "grill-me"
+handoff = "handoff"
+teach = "teach"
+to-questionnaire = "to-questionnaire"
+wait-what = "wait-what"
+
+# Model-invoked
+grilling = "grilling"
+writing-for-agents = "writing-for-agents"
+
+["GoogleChrome/modern-web-guidance"."skills"]
+modern-web-guidance = "modern-web-guidance"
+chrome-extensions = "chrome-extensions"
