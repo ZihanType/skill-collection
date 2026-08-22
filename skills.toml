@@ -47,3 +47,6 @@ writing-for-agents = "writing-for-agents"
 ["GoogleChrome/modern-web-guidance"."skills"]
 modern-web-guidance = "modern-web-guidance"
 chrome-extensions = "chrome-extensions"
+
+["microsoft/playwright-cli"."skills"]
+playwright-cli = "playwright-cli"
