@@ -101,8 +101,8 @@ managed_skill = "modern-web-guidance"
 source_repository = "GoogleChrome/modern-web-guidance"
 source_path = "skills"
 source_skill = "modern-web-guidance"
-commit = "457c381def89ce6213a171238f92eea63e9eaeb2"
-sha256 = "89ab19687ce59ec5650d8b0f65d80380a0e6f186686c701af27157158a6455fd"
+commit = "56c61c9ee79a8df1a98822309c04847a57f56000"
+sha256 = "c4d7781ebe3c7f2a6584bd8e4c5c7d581d04f376754bfffe5f0b44b4bbfe1fed"
 
 [[skills]]
 managed_skill = "playwright-cli"
