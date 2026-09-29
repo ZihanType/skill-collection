@@ -29,7 +29,6 @@ tdd = "tdd"
 domain-modeling = "domain-modeling"
 codebase-design = "codebase-design"
 code-review = "code-review"
-resolving-merge-conflicts = "resolving-merge-conflicts"
 wizard = "wizard"
 
 ["mattpocock/skills"."skills/productivity"]
