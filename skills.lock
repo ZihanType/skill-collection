@@ -109,8 +109,8 @@ managed_skill = "playwright-cli"
 source_repository = "microsoft/playwright-cli"
 source_path = "skills"
 source_skill = "playwright-cli"
-commit = "74354ecc7a43da16d91a9bc54fa8db8283a3fcf5"
-sha256 = "1f858bfe7a6f7934373a29bc53321f064023bc5a0813762e62f58f228e955966"
+commit = "b85c7a736bb473bf55b584e54a09ffa698d6d871"
+sha256 = "3e9df7e2828ee98ff0cc1ca30265892aa0b2c5b9a18be9ca231c8ede1e94ba33"
 
 [[skills]]
 managed_skill = "prototype"
