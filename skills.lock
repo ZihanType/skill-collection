@@ -121,6 +121,14 @@ commit = "b85c7a736bb473bf55b584e54a09ffa698d6d871"
 sha256 = "3e9df7e2828ee98ff0cc1ca30265892aa0b2c5b9a18be9ca231c8ede1e94ba33"
 
 [[skills]]
+managed_skill = "pr"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "pr"
+commit = "24fe0ef7737efae15c87225755e9f6f5965e4888"
+sha256 = "f76b71601451169497a45a9fdb56c46a3d274dea1b679571ec4de51d6d2a6c11"
+
+[[skills]]
 managed_skill = "prototype"
 source_repository = "mattpocock/skills"
 source_path = "skills/engineering"
