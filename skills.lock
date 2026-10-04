@@ -145,6 +145,14 @@ commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
 sha256 = "f460314525aab129fa79ecafc5a3aa09ebec4aa3e1115fe580b5ff3d334e97be"
 
 [[skills]]
+managed_skill = "retro"
+source_repository = "mattpocock/skills"
+source_path = "skills/engineering"
+source_skill = "retro"
+commit = "24fe0ef7737efae15c87225755e9f6f5965e4888"
+sha256 = "bdc872693409d1973957fcfd766bc4dd3779856866f8fc6d11d27f10a755cce9"
+
+[[skills]]
 managed_skill = "setup-matt-pocock-skills"
 source_repository = "mattpocock/skills"
 source_path = "skills/engineering"
