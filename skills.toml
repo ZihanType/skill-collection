@@ -19,7 +19,9 @@ setup-matt-pocock-skills = "setup-matt-pocock-skills"
 to-spec = "to-spec"
 to-tickets = "to-tickets"
 implement = "implement"
+implement-spec = "implement-spec"
 wayfinder = "wayfinder"
+retro = "retro"
 
 # Model-invoked
 prototype = "prototype"
@@ -29,6 +31,7 @@ tdd = "tdd"
 domain-modeling = "domain-modeling"
 codebase-design = "codebase-design"
 code-review = "code-review"
+pr = "pr"
 wizard = "wizard"
 
 ["mattpocock/skills"."skills/productivity"]
