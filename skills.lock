@@ -5,8 +5,8 @@ managed_skill = "ask-matt"
 source_repository = "mattpocock/skills"
 source_path = "skills/engineering"
 source_skill = "ask-matt"
-commit = "d81f3a183412e71a5b1e84ca21bc1a35eea03a60"
-sha256 = "6088d8d60c4c0025fb73882caf9bd7fe94f3442b8ee3d0ffdd6ab0d25918373c"
+commit = "24fe0ef7737efae15c87225755e9f6f5965e4888"
+sha256 = "f0d8a54323b34f0ee4f7913700750211b8b4a9b9ee0b1f459d3a5b671d95ca66"
 
 [[skills]]
 managed_skill = "chrome-extensions"
