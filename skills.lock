@@ -37,8 +37,8 @@ managed_skill = "diagnosing-bugs"
 source_repository = "mattpocock/skills"
 source_path = "skills/engineering"
 source_skill = "diagnosing-bugs"
-commit = "d81f3a183412e71a5b1e84ca21bc1a35eea03a60"
-sha256 = "58d07f68db3d3a192d81ca417a5772d3597a9f81ee05d41c2c5811aee44db41d"
+commit = "f3fc5632f401156837ee3872f14fe33ccf1024ea"
+sha256 = "554fa620aa2ffa200d8ca346c45609b17f271184e48bb9330cca3a59b2998643"
 
 [[skills]]
 managed_skill = "domain-modeling"
