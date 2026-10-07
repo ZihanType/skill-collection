@@ -173,8 +173,8 @@ managed_skill = "teach"
 source_repository = "mattpocock/skills"
 source_path = "skills/productivity"
 source_skill = "teach"
-commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
-sha256 = "787b5e94181050209a56eb173326472e06b7dc8e001669f935828e69fb830945"
+commit = "f3fc5632f401156837ee3872f14fe33ccf1024ea"
+sha256 = "c8af4e16b6d95a7869a4f554fb7dff0e509ab90ec8fcfdcc5f6aad0795b57bad"
 
 [[skills]]
 managed_skill = "to-questionnaire"
