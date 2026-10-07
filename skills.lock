@@ -221,8 +221,8 @@ managed_skill = "wayfinder"
 source_repository = "mattpocock/skills"
 source_path = "skills/engineering"
 source_skill = "wayfinder"
-commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
-sha256 = "c88a20b8eaa898fab62fc566883ebaeb4ba5655cffe2fe0be677617c7b3ac5f1"
+commit = "f3fc5632f401156837ee3872f14fe33ccf1024ea"
+sha256 = "4e018d4f836702cd21c32a5b34489dfdbd6b176b7b816b1f8f30042f49f283f4"
 
 [[skills]]
 managed_skill = "wizard"
