@@ -9,14 +9,6 @@ commit = "f3fc5632f401156837ee3872f14fe33ccf1024ea"
 sha256 = "e91efdb692bbab45f17505143a4b5d43ae445eaaf317807dd515f62baa9e0389"
 
 [[skills]]
-managed_skill = "chrome-extensions"
-source_repository = "GoogleChrome/modern-web-guidance"
-source_path = "skills"
-source_skill = "chrome-extensions"
-commit = "460e5536b8e61034d83ff4af24bb0bf1112d2cb0"
-sha256 = "2012f6e779fbd0ce14c824a314708f5f8a862327dc7bd2c510686625c7b57aa0"
-
-[[skills]]
 managed_skill = "code-review"
 source_repository = "mattpocock/skills"
 source_path = "skills/engineering"
