@@ -93,8 +93,8 @@ managed_skill = "improve-codebase-architecture"
 source_repository = "mattpocock/skills"
 source_path = "skills/engineering"
 source_skill = "improve-codebase-architecture"
-commit = "d81f3a183412e71a5b1e84ca21bc1a35eea03a60"
-sha256 = "9950c1f1dd848fcd91af2336b2c2f8d9f2c5ca4661042465ff1ff5ca46f979ea"
+commit = "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+sha256 = "e4662b3615c6dcc1317dea6598b12187658a6440ed7253a57cdd80060d08824e"
 
 [[skills]]
 managed_skill = "modern-web-guidance"
