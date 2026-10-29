@@ -133,8 +133,8 @@ managed_skill = "research"
 source_repository = "mattpocock/skills"
 source_path = "skills/engineering"
 source_skill = "research"
-commit = "5b15a47f2d7150f545fbcacbfe381787fc0230dc"
-sha256 = "f460314525aab129fa79ecafc5a3aa09ebec4aa3e1115fe580b5ff3d334e97be"
+commit = "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+sha256 = "27f585770957f7282fe1e3343931553ee3dced052ae2b5a87a7b93cb5b3aa19d"
 
 [[skills]]
 managed_skill = "retro"
