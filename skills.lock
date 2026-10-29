@@ -85,8 +85,8 @@ managed_skill = "implement-spec"
 source_repository = "mattpocock/skills"
 source_path = "skills/engineering"
 source_skill = "implement-spec"
-commit = "24fe0ef7737efae15c87225755e9f6f5965e4888"
-sha256 = "3b9ddd7874274ed63015b6a5a203c866aa59c4a7760c0303d6d7cfb3d540925a"
+commit = "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+sha256 = "74639abfb45dc4819ad6dffcc0f1d97b68d5e17d9ead55cb9b9a7872e13775d9"
 
 [[skills]]
 managed_skill = "improve-codebase-architecture"
