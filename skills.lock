@@ -61,8 +61,8 @@ managed_skill = "grilling"
 source_repository = "mattpocock/skills"
 source_path = "skills/productivity"
 source_skill = "grilling"
-commit = "f3fc5632f401156837ee3872f14fe33ccf1024ea"
-sha256 = "9a4017a90187236ce7b3969305361c4d39b0c048fcef95dd3e5258566c36b758"
+commit = "a496f5513d4a4cf889bc48e189e579f4b0bdf6aa"
+sha256 = "1e1a154ac1382ed779cf6d396afd20df66524b60800f4368df8d51b5c15d0e88"
 
 [[skills]]
 managed_skill = "handoff"
