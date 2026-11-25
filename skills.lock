@@ -37,8 +37,8 @@ managed_skill = "domain-modeling"
 source_repository = "mattpocock/skills"
 source_path = "skills/engineering"
 source_skill = "domain-modeling"
-commit = "d81f3a183412e71a5b1e84ca21bc1a35eea03a60"
-sha256 = "f5e769e284deaea271d9246dc0927a57ef4ab04a76c72bad99ed29805cd174df"
+commit = "6f7f7831a625f040a8e06a0e7954826b87ce775a"
+sha256 = "02ea4e0cc38b00859f1a5b9d126993e65ef30bdf13139a6253819881a1f65dfb"
 
 [[skills]]
 managed_skill = "grill-me"
