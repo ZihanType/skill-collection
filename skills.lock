@@ -189,8 +189,8 @@ managed_skill = "to-tickets"
 source_repository = "mattpocock/skills"
 source_path = "skills/engineering"
 source_skill = "to-tickets"
-commit = "6fd947921b935b7e1e69293a200400f0fdd5c15f"
-sha256 = "346b2045a185be31f495a1efcfc41dfd2a882c3c96508473c6c5f3058bbc8f55"
+commit = "bbadaa631c37af594e5a05c9cefacd9956136b18"
+sha256 = "6fee8b4292d95cf0bc3d65f52d30f3c13e85ca2785da7b7a59b7eb4ce9b1bf98"
 
 [[skills]]
 managed_skill = "triage"
